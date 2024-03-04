@@ -10,7 +10,7 @@ fi
 # Do not change code above this line. Use the PSQL variable above to query your database.
 
 # Fungsi untuk memeriksa dan memasukkan tim ke dalam tabel jika belum ada
-INSERT_TEAM() {  
+insert_team() {  
   TEAM_NAME=$($PSQL "SELECT name FROM teams WHERE name = '$1'")
   if [[ -z $TEAM_NAME ]]
   then
@@ -24,8 +24,8 @@ tail -n +2 games.csv | while IFS=',' read YEAR ROUND WINNER OPPONENT WINNER_GOAL
 
 do
   # Jika tidak ada, Input team ke tabel teams
-  INSERT_TEAM "$WINNER"
-  INSERT_TEAM "$OPPONENT"
+  insert_team "$WINNER"
+  insert_team "$OPPONENT"
 
   # Jika ada, ambil ID team dari tabel teams
   WINNER_ID=$($PSQL "SELECT team_id FROM teams WHERE name = '$WINNER'")
