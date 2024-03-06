@@ -18,3 +18,7 @@ Membuat database `worldcup` yang terdiri dari tabel `teams` (berisi negara-negar
    - Jika belum ada, tambahkan nama tim ke tabel `teams`
    - Jika sudah ada, ambil ID (foreign key) dari tim tersebut agar tabel terhubung dan bisa menambahkan juga detail pertandingan ke tabel `games`.
    - Cetak pesan konfirmasi penambahan entri baru ke terminal.
+
+### Analisis Data dengan Query SQL
+
+Berdasarkan data yang telah berhasil ditambahkan ke database, kita bisa menganalisis data piala dunia tersebut menggunakan query SQL [seperti ini](https://github.com/dipintoo/worldcup_database/blob/main/queries.sh) dan [hasil analisisnya](https://github.com/dipintoo/worldcup_database/blob/main/contoh_output.txt).
