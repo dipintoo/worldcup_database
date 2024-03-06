@@ -1,4 +1,4 @@
-![Cover]()
+![Cover](https://github.com/dipintoo/worldcup_database/blob/main/img/Cover_2.jpg)
 
 ## Goals
 
@@ -9,6 +9,8 @@ Kita diberikan file `.csv` yang berisi data tim dan detail pertandingan piala du
 ### [Database](https://github.com/dipintoo/worldcup_database/blob/main/simple_worldcup.sql)  
 
 Membuat database `worldcup` yang terdiri dari tabel `teams` (berisi negara-negara partisipan) dan tabel `games` (berisi detail pertandingan). Terapkan konsep relational database dengan menentukan primary key untuk setiap tabel, menetapkan foreign key untuk menghubungkan tabel, dan memilih tipe data yang cocok.
+
+![Cover](https://github.com/dipintoo/worldcup_database/blob/main/img/Database%20Design.png)
 
 ### [Algoritma Bash Script](https://github.com/dipintoo/worldcup_database/blob/main/insert_data.sh)
 
