@@ -2,21 +2,19 @@
 
 ## Goals
 
-Kita diberikan file .csv yang berisi data tim dan detail pertandingan piala dunia tahun 2014 dan 2018. Kita diminta membuat database yang berisi tabel team (berisi negara-negara partisipan) dan tabel games (berisi detail pertandingan).
+Kita diberikan file `.csv` yang berisi data tim dan detail pertandingan piala dunia tahun 2014 dan 2018. Kita diminta membuat database relational nya dengan mengorganisir data berisi negara-negara partisipan dan data tabel berisi detail pertandingan. Setelah itu, buat script bash yang mampu membaca data .csv untuk memasukkan data secara otomatis ke dalam database. Setelah itu gunakan query SQL untuk menarik informasi bermanfaat dari database.
 
+## Alur Kerja
 
-Buat skrip Bash yang memasukkan informasi dari file games.csv Piala Dunia ke PostgreSQL, lalu kueri database untuk statistik yang berguna.
+### Database
 
-Proyek dibuat sebagai bagian dari kursus Sertifikat Beta Basis Data Relasional FreeCodeCamp
+Membuat database `worldcup` yang terdiri dari tabel `teams` (berisi negara-negara partisipan) dan tabel `games` (berisi detail pertandingan). Terapkan konsep relational database dengan menentukan primary key untuk setiap tabel, menetapkan foreign key untuk menghubungkan tabel, dan memilih tipe data yang cocok berdasarkan data yang diberikan.
 
-Membuat basis data
-Kumpulan data: games.csv
+### Algoritma Bash Script
 
-Membuat database, 'piala dunia', dan tabel yang sesuai ('tim' dan 'permainan') di PostgreSQL untuk memvisualisasikan data dari games.csv.
+1. Baca file `.csv`, lalu tetapkan variabel inputnya sesuai dengan kolom yang terdapat pada file (perhatikan separatornya).
+2. Periksa apakah nama tim yang akan ditambahkan sudah ada atau belum dalam tabel `teams`.
 
-Menambahkan batasan yang sesuai (kunci utama dan kunci asing) yang diperlukan untuk menghubungkan tabel.
-
-Tabel:
-
-'games' melacak semua pertandingan dan skor yang dibuat oleh tim pemenang dan tim lawan (menggunakan team_id sebagai pengidentifikasi).
-'tim' mencantumkan semua tim yang bermain dalam pertandingan.
+   - Jika belum ada, tambahkan nama tim ke tabel `teams`
+   - Jika sudah ada, ambil ID (foreign key) dari tim tersebut agar tabel terhubung dan bisa menambahkan juga detail pertandingan ke tabel `games`.
+   - Cetak pesan konfirmasi penambahan entri baru ke terminal.
