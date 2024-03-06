@@ -10,7 +10,7 @@ Kita diberikan file `.csv` yang berisi data tim dan detail pertandingan piala du
 
 Membuat database `worldcup` yang terdiri dari tabel `teams` (berisi negara-negara partisipan) dan tabel `games` (berisi detail pertandingan). Terapkan konsep relational database dengan menentukan primary key untuk setiap tabel, menetapkan foreign key untuk menghubungkan tabel, dan memilih tipe data yang cocok.
 
-### Algoritma Bash Script
+### [Algoritma Bash Script](https://github.com/dipintoo/worldcup_database/blob/main/insert_data.sh)
 
 1. Baca file `.csv`, lalu tetapkan variabel inputnya sesuai dengan kolom yang ada pada file (perhatikan separatornya).
 2. Periksa apakah nama tim yang akan ditambahkan sudah ada atau belum dalam tabel `teams`.
