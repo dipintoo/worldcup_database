@@ -6,9 +6,9 @@ Kita diberikan file `.csv` yang berisi data tim dan detail pertandingan piala du
 
 ## Alur Kerja
 
-### [Database](https://github.com/dipintoo/worldcup_database/blob/main/simple_worldcup.sql)  
+### Database
 
-Membuat database `worldcup` yang terdiri dari tabel `teams` (berisi negara-negara partisipan) dan tabel `games` (berisi detail pertandingan). Terapkan konsep relational database dengan menentukan primary key untuk setiap tabel, menetapkan foreign key untuk menghubungkan tabel, dan memilih tipe data yang cocok.
+Membuat database [worldcup](https://github.com/dipintoo/worldcup_database/blob/main/simple_worldcup.sql) yang terdiri dari tabel `teams` (berisi negara-negara partisipan) dan tabel `games` (berisi detail pertandingan). Terapkan konsep relational database dengan menentukan primary key untuk setiap tabel, menetapkan foreign key untuk menghubungkan tabel, dan memilih tipe data yang cocok.
 
 ![Cover](https://github.com/dipintoo/worldcup_database/blob/main/img/Database%20Design.png)
 
@@ -25,5 +25,9 @@ Membuat database `worldcup` yang terdiri dari tabel `teams` (berisi negara-negar
 
 Berdasarkan data yang telah berhasil ditambahkan ke database, kita bisa menganalisis data piala dunia tersebut menggunakan query SQL [seperti ini](https://github.com/dipintoo/worldcup_database/blob/main/queries.sh) berikut [hasil analisisnya](https://github.com/dipintoo/worldcup_database/blob/main/contoh_output.txt).  
 
+
+## Sumber
+
+freeCodeCamp. (2024). Relational Database. Diakses dari https://www.freecodecamp.org/learn/relational-database/build-a-world-cup-database-project/build-a-world-cup-database
 
 [**_Next Project - Aplikasi Booking Salon >>_**](https://github.com/dipintoo/salon_database)
