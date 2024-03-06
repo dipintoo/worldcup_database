@@ -23,4 +23,7 @@ Membuat database `worldcup` yang terdiri dari tabel `teams` (berisi negara-negar
 
 ### Analisis Data dengan Query SQL
 
-Berdasarkan data yang telah berhasil ditambahkan ke database, kita bisa menganalisis data piala dunia tersebut menggunakan query SQL [seperti ini](https://github.com/dipintoo/worldcup_database/blob/main/queries.sh) berikut [hasil analisisnya](https://github.com/dipintoo/worldcup_database/blob/main/contoh_output.txt).
+Berdasarkan data yang telah berhasil ditambahkan ke database, kita bisa menganalisis data piala dunia tersebut menggunakan query SQL [seperti ini](https://github.com/dipintoo/worldcup_database/blob/main/queries.sh) berikut [hasil analisisnya](https://github.com/dipintoo/worldcup_database/blob/main/contoh_output.txt).  
+
+
+[**_Next Project - Aplikasi Booking Salon >>_**](https://github.com/dipintoo/salon_database)
